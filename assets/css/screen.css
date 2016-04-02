@@ -1762,7 +1762,7 @@ body:not(.post-template) .post-title {
     }
 
     .main-nav {
-        padding: 5px;
+        padding: 16px;
         margin-bottom: 2rem;
     }
 
@@ -1794,7 +1794,6 @@ body:not(.post-template) .post-title {
     .main-nav.overlay a:hover {
         color: #fff;
         border-color: transparent;
-        background: transparent;
     }
 
     .no-cover .main-nav.overlay {
