@@ -10,6 +10,10 @@
 
     $document.ready(function () {
 
+		$("img[alt]").each(function(){
+			$(this).attr("title", $(this).attr("alt"));
+		});
+	
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
