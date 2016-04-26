@@ -450,10 +450,6 @@ body.nav-opened .site-wrapper {
 
 .main-header .inner {
     width: 80%;
-    -webkit-animation: fade-in-down 1s;
-    animation: fade-in-down 1s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
 }
 
 .main-nav {
