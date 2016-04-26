@@ -463,6 +463,18 @@ body.nav-opened .site-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-nav a span
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav a span:first-of-type
+{
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
 /* Navigation */
 body.nav-opened .nav-cover {
     position: fixed;
@@ -646,6 +658,7 @@ body.nav-opened .nav {
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
+    font-family: FontAwesome;
 }
 
 
@@ -2022,7 +2035,7 @@ body:not(.post-template) .post-title {
 .back-button {
     float: left;
     height: 38px;
-    padding: 0 15px 0 10px;
+    padding: 0 20px;
     border: transparent 1px solid;
     color: #9EABB3;
     text-align: center;
@@ -2040,6 +2053,7 @@ body:not(.post-template) .post-title {
     font-size: 13px;
     line-height: 0;
     margin-right: 8px;
+    font-family: FontAwesome;
 }
 .subscribe-button {
     float: right;
