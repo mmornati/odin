@@ -274,8 +274,7 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.85em;
+    font-family: monospace;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
     background: #F7FAFB;
@@ -290,8 +289,7 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-family: monospace;
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
