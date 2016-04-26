@@ -2166,7 +2166,8 @@ body:not(.post-template) .post-title {
     color: rgba(0, 0, 0, 0.8);
 }
 .main-header .social_link li a:hover {
-    transform: scale(1.3);
+    /*transform: scale(1.3);*/
+    color: #fff;
 }
 
 /* Menu */
