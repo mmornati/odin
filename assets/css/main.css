@@ -916,6 +916,16 @@ body:not(.post-template) .post-title {
     text-decoration: underline;
 }
 
+.post-meta .largePage
+{
+    display: block;
+}
+
+.post-meta .smallPage
+{
+    display: none;
+}
+
 .user-meta {
     position: relative;
     padding: 0.3rem 40px 0 100px;
@@ -923,13 +933,9 @@ body:not(.post-template) .post-title {
 }
 
 .post-date {
-    display: inline-block;
     margin-left: 8px;
     padding-left: 12px;
     border-left: #d5dbde 1px solid;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    white-space: nowrap;
 }
 
 .user-image {
@@ -1757,6 +1763,23 @@ body:not(.post-template) .post-title {
         width: auto;
         margin: 2rem auto;
     }
+    
+    .post-meta .largePage
+    {
+        display: none;
+    }
+    
+    .post-meta .smallPage
+    {
+        display: block;
+    }
+    
+    .post-meta .smallPage .post-date
+    {
+        margin-left: 0px;
+        padding-left: 0px;
+        border-left: none;
+    }
 
     .post {
         width: auto;
@@ -1766,10 +1789,6 @@ body:not(.post-template) .post-title {
         margin-right: 16px;
         padding-bottom: 2rem;
         line-height: 1.65em;
-    }
-
-    .post-date {
-        display: none;
     }
 
     .post-template .post-header {
