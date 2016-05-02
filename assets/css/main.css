@@ -938,10 +938,6 @@ body:not(.post-template) .post-title {
     border-left: #d5dbde 1px solid;
 }
 
-a.post-date time{
-    font-weight: bold;
-}
-
 .user-image {
     position: absolute;
     top: 0;
