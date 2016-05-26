@@ -2102,6 +2102,9 @@ body:not(.post-template) .post-title {
     list-style-type: none;
     min-height: 50px;
 }
+.main-header .social_link a:focus {
+    outline: none;
+}
 .main-header .social_link li {
     display: inline;
     font-size: 2.5rem;
