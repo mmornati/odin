@@ -184,7 +184,7 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover, section.post-content a:hover, h2.post-title a:hover{
     color: #0067B7;
 }
 
