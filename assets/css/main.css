@@ -192,6 +192,10 @@ section.post-content a{
     color: #0dafff;
 }
 
+h2.post-title a{
+    color: #013863;
+}
+
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
