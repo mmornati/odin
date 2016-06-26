@@ -188,8 +188,7 @@ a:hover {
     color: #0067B7;
 }
 
-article a
-{
+section.post-content a{
     color: #0dafff;
 }
 
