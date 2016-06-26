@@ -188,6 +188,11 @@ a:hover {
     color: #0067B7;
 }
 
+article a
+{
+    color: #0dafff;
+}
+
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
