@@ -363,7 +363,7 @@ table.plain tbody > tr:nth-child(odd) > th {
    background: transparent;
 }
 
-iframe, .fluid-width-video-wrapper {
+iframe:not([name^=dsq]), .fluid-width-video-wrapper {
     display: block;
     margin: 1.75em 0;
 }
@@ -1081,6 +1081,10 @@ body:not(.post-template) .post-title {
     margin: 1rem 0;
     font-size: 1.4rem;
     line-height: 1.75em;
+}
+
+.post-comments {
+    padding-top: 20px;
 }
 
 /* list of author links - location / url */
