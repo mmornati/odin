@@ -15,9 +15,9 @@
 
 <main class="content" role="main">
     <article class="{{post_class}}" itemscope itemtype="http://schema.org/Article">
-        <meta itemprop="image" content="{{image}}">
+        <meta itemprop="image" content="{{image absolute="true"}}">
         <header class="post-header">
-            <h1 class="post-title"  itemprop="name">{{title}}</h1>
+            <h1 class="post-title"  itemprop="name headline">{{title}}</h1>
             <section class="post-meta">
                 <a href="{{url}}"><time itemprop="datePublished" content="{{date format='YYYY-MM-DD'}}" class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="Do MMMM YYYY"}}</time></a> {{tags prefix=" on "}} by <a href='https://twitter.com/chridemi'><span itemprop="author" itemscope itemtype="http://schema.org/Person">
 <span itemprop="name">Christopher Demicoli</span></span></a>
