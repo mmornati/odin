@@ -1708,6 +1708,9 @@ body:not(.post-template) .post-title {
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
+    }
+
+    .home-template .main-header{
         background-position-x: 0px;
     }
 
