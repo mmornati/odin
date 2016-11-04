@@ -25,6 +25,7 @@ but keeping all the good and minimalistic features of Casper.
 * Fully responsive (for mobiles and tablets)
 * Home Page Navigation Menu Buttons
 * Google Analytics (easily configurable by code injection in the admin area)
+* CookieBar privacy (easily configurable by code injection in the admin area)
 * [Disqus](https://disqus.com) comments (easily configurable by code injection in the admin area)
 * [Prism](http://prismjs.com/) Syntax Highlight (all languages supported)
 * [RRSSB](https://github.com/kni-labs/rrssb) Extraordinary Social Sharing Buttons
@@ -60,6 +61,39 @@ var ga_id = 'YOUR-UA-ID_HERE';
 
 // to enable Disqus
 var disqus_shortname = 'YOUR_DISQUS_SHORTNAME'
+
+//to Enable the cookiebar (http://www.primebox.co.uk/projects/jquery-cookiebar/)
+var cookieBarSettings = {
+    message: 'We use cookies to track usage and preferences',
+	acceptButton: true,
+	acceptText: 'I Understand'
+};
+//List of available CookieBar Settings
+// message: 'We use cookies to track usage and preferences',
+// acceptButton: true,
+// acceptText: 'I Understand',
+// acceptFunction: null,
+// declineButton: false,
+// declineText: 'Disable Cookies',
+// declineFunction: null,
+// policyButton: true,
+// policyText: 'Privacy Policy',
+// policyURL: '/privacy-policy/',
+// autoEnable: true,
+// acceptOnContinue: false,
+// acceptOnScroll: false,
+// acceptAnyClick: false,
+// expireDays: 365,
+// renewOnVisit: false,
+// forceShow: false,
+// effect: 'slide',
+// element: 'body',
+// append: false,
+// fixed: false,
+// bottom: false,
+// zindex: '',
+// domain: 'www.example.com',
+// referrer: 'www.example.com'
 
 
 // to enable Social Link Icons add the social_link object
